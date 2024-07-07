@@ -1,1 +1,1 @@
-https://vitya-wolfram.github.io/rsschool-cv/cv
+https://github.com/Vitya-Wolfram/rsschool-cv/

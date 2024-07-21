@@ -117,11 +117,16 @@ h1.section-title {
 
 .profile-link {
   text-decoration: none;
-  line-height: 80px;
+  line-height: 50px;
   transition: 0.3s;
   color: lightslategrey;
 }
 
 .profile-link:hover {
   color: blueviolet;
+}
+
+ul {
+  list-style: circle;
+  line-height: 50px;
 }

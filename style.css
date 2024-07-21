@@ -78,3 +78,20 @@ body {
 .nav-link:hover {
   color: blueviolet;
 }
+
+#profile {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+  width: 100%;
+}
+
+h1.section-title {
+  font-size: 40px;
+}
+
+#avatar-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+}

@@ -14,22 +14,21 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
-  color: mediumpurple;
+  color: lightslategrey;
   min-height: 100vh;
   margin: 0;
   padding: 0;
 }
 
 .header {
-  border: 1px solid green;
+  background-color: lightskyblue;
 }
 
 .main-content {
-  border: 1px solid blueviolet;
 }
 
 .footer {
-  border: 1px solid red;
+  background-color: burlywood;
 }
 
 .container {
@@ -42,6 +41,11 @@ body {
   flex-wrap: wrap;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .section {
   width: 50%;
 }
@@ -51,7 +55,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: dimgrey;
+  color: rosybrown;
 }
 
 @media (max-width: 768px) {
@@ -79,6 +83,16 @@ body {
   color: blueviolet;
 }
 
+a {
+  text-decoration: none;
+  transition: 0.5s;
+  color: lightslategray;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
 #profile {
   display: flex;
   justify-content: space-around;
@@ -94,4 +108,20 @@ h1.section-title {
   width: 200px;
   height: 200px;
   border-radius: 20%;
+}
+
+.profile-link-list {
+  list-style: circle;
+  color: lightslategrey;
+}
+
+.profile-link {
+  text-decoration: none;
+  line-height: 80px;
+  transition: 0.3s;
+  color: lightslategrey;
+}
+
+.profile-link:hover {
+  color: blueviolet;
 }
